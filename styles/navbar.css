@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+/* NAVBAR */
+nav {
+  height: 60px;
+  background-color: white;
+  border-bottom: 1px solid rgb(186, 186, 186);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  border-right: 1px solid rgb(186, 186, 186);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#logoNoticias img {
+  height: auto;
+  width: 100px;
+  padding-top: 2px;
+}
+
+#nav-sign-in {
+  height: 100%;
+  padding: 0 110px 0 15px;
+}
+
+#nav-sign-in-text {
+  position: absolute;
+  left: 45px;
+}
+
+#nav-sign-in i {
+  padding-right: 5px;
+}
+
+/* Underline styling */
+.nav-line {
+  display: none;
+  position: absolute;
+  background-color: red;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+}
+
+/*All the different colours that the underline can be*/
+.nav-blue {
+  background-color: #007bc7;
+}
+.nav-dark-blue {
+  background-color: #006def;
+}
+.nav-black {
+  background-color: #3f3f42;
+}
+.nav-red {
+  background-color: #bb1919;
+}
+.nav-yellow {
+  background-color: #ffd230;
+}
+.nav-light-blue {
+  background-color: #88ccee;
+}
+.nav-pink {
+  background-color: #ed3d7d;
+}
+.nav-orange {
+  background-color: #ff4900;
+}
+.nav-green {
+  background-color: #90d200;
+}
+.nav-yellow {
+  background-color: #ffe513;
+}
+a:hover .nav-line {
+  display: block;
+}
+
+/* General Styling */
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+i {
+  font-size: 22px;
+}
