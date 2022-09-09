@@ -1,0 +1,45 @@
+/*UTIL CSS CLASSES*/
+.document-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 15px;
+}
+
+.card-img-container {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  align-content: space-between;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-img-container img {
+  width: 300px;
+}
+
+/*Normal Website Styling*/
+#titulo-principal {
+  background-color: white;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.title-text {
+  font-size: 40px;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 2.38rem 2rem;
+  justify-content: center;
+  gap: 50px;
+}

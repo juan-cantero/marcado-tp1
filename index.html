@@ -12,22 +12,133 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
 
   <body>
     <nav>
       <!-- LOGO-->
-      <a id="logoNoticias" href="">
-        <img src="./assets/noticias-logo.png" alt="logo de noticias" />
-      </a>
+      <div class="logo-container">
+        <a id="logoNoticias" href="">
+          <img src="./assets/noticias-logo.png" alt="logo de noticias" />
+        </a>
+      </div>
       <!-- SIGN IN  -->
       <a href="" id="nav-sign-in">
         <i class="fas fa-user-circle"></i>
         <div id="nav-sign-in-text">Loguearse</div>
         <div class="nav-line nav-blue"></div>
       </a>
+      <!-- BELL ICON -->
+      <a href="" id="nav-bell-icon">
+        <i class="fas fa-bell"></i>
+        <div class="nav-line nav-dark-blue"></div>
+      </a>
+
+      <!-- MAIN NAV -->
+      <section id="main-nav">
+        <a href="" id="main-nav-home" class="main-nav-entry">
+          <div>Inicio</div>
+          <div class="nav-line nav-blue"></div>
+        </a>
+        <a href="javascript:void(0);" class="main-nav-entry" id="main-nav-news">
+          <div>Noticias</div>
+          <div class="nav-line nav-red"></div>
+        </a>
+        <a
+          href="javascript:void(0);"
+          class="main-nav-entry"
+          id="main-nav-sport"
+        >
+          <div>Deporte</div>
+          <div class="nav-line nav-yellow"></div>
+        </a>
+        <a
+          href="javascript:void(0);"
+          class="main-nav-entry"
+          id="main-nav-weather"
+        >
+          <div>Clima</div>
+          <div class="nav-line nav-light-blue"></div>
+        </a>
+        <a
+          href="javascript:void(0);"
+          class="main-nav-entry"
+          id="main-nav-music"
+        >
+          <div>Musica</div>
+          <div class="nav-line nav-pink"></div>
+        </a>
+        <a
+          href="javascript:void(0);"
+          class="main-nav-entry"
+          id="main-nav-religion"
+        >
+          <div>Religion</div>
+          <div class="nav-line nav-orange"></div>
+        </a>
+
+        <a href="javascript:void(0);" class="main-nav-entry" id="main-nav-more">
+          <div>Mas</div>
+          <i class="fas fa-caret-down"></i>
+          <div class="nav-line nav-black"></div>
+        </a>
+      </section>
+      <!--Search-->
+      <a href="javascript:void(0);" id="nav-search">
+        <i class="fas fa-search"></i>
+        <div id="nav-search-text">Buscar</div>
+        <div class="nav-line nav-black"></div>
+      </a>
     </nav>
+
+    <!--END OF NAVBAR. START OF MAIN PAGE-->
+    <div id="titulo-principal">
+      <div class="center-content title-text">Noticias Reales</div>
+    </div>
+    <!--Main-->
+    <main style="margin-top: 20px">
+      <div class="document-container">
+        <div class="card-img-container">
+          <img src="./assets/dino.jpg" alt="dinosaurio en la city" />
+          <p>Aparece Dinosaurio en la ciudad de Buenos Aires</p>
+          <a href="./noticia-dino.html"> click para ver el video.... </a>
+        </div>
+        <div class="card-img-container">
+          <img src="./assets/delorean.jpg" alt="delorean" />
+          <p>
+            Recrean el Delorean para viajar en el tiempo, el primer viaje seria
+            al 2014 para evitar que Higuain erre en la final contra Alemania
+          </p>
+        </div>
+        <div class="card-img-container">
+          <img src="./assets/dinero.jpeg" alt="dinero" />
+          <p>
+            El peso Argentino logra ser el mejor de la region y la gente en
+            Estados Unidos se quiere pesificar
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <section class="footer">
+        <div id="footer-copyright-info">&copy; Juan Cantero</div>
+        <div id="footer-social-buttons">
+          <img
+            src="https://img.icons8.com/ios-filled/25/999999/facebook--v1.png"
+          />
+          <img
+            src="https://img.icons8.com/ios-filled/25/999999/telegram-app.png"
+          />
+          <img
+            src="https://img.icons8.com/ios-filled/25/999999/pinterest--v1.png"
+          />
+          <img
+            src="https://img.icons8.com/ios-filled/25/999999/instagram--v1.png"
+          />
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
